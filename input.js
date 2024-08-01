@@ -15,7 +15,7 @@ export async function userInput(){
     }
 }
 
-export async function compInput(){
+export async function compInput() {
     let sinput = choices[Math.floor(Math.random() * choices.length)];
     return sinput;
 }
